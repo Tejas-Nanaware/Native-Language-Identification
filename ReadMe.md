@@ -25,8 +25,6 @@ This task was created for the CS585 - Natural Language Processing Fall 2019 Cour
 |--train.jsonlines  
 |--eval.jsonlines  
 |--test.jsonlines  
-```
 Format Data For Input.sh  
 run_bert_fv.sh  
 Prediction Models.ipynb  
-```
