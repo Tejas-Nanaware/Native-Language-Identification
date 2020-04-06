@@ -6,4 +6,6 @@ This task was created for the CS585 - Natural Language Processing Fall 2019 Cour
 # Workflow
 1. Clone the [BERT repository](https://github.com/google-research/bert) and add it as a git submodule referred as `BERT_BASE_DIR`.  
 2. Use the BERT-Base Uncased model that is used as the data files. [Repo Link](https://github.com/google-research/bert/blob/master/README.md), [Download Link](https://storage.googleapis.com/bert_models/2018_10_18/uncased_L-12_H-768_A-12.zip). This is referred as `BERT_DATA_DIR`.  
-3. Apply Prediction models for the prediction.  
+3. Download the dataset from the University Repo that is used for training, validation and testing. [Link](http://www.cs.iit.edu/~cs585/hw4/hw4-handout.tgz). This is the `data` directory.
+4. Run the `Format Data For Input.sh` that programmatically reformats the data files into the `bert_input_data` and then run the `run_bert_fv.sh` that obtains the feature vector representation for each data into the `bert_output_data` directory. 
+5. Apply Prediction models for the prediction.  
