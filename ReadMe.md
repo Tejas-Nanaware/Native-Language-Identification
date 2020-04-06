@@ -11,20 +11,22 @@ This task was created for the CS585 - Natural Language Processing Fall 2019 Cour
 5. Apply Prediction models for the prediction `Prediction Models.ipynb` file.  
 
 # Directory Structure
-BERT_BASE_DIR (The files from the Google's BERT Submodule)  
-BERT_DATA_DIR (The files from the BERT-Base Uncased Model)  
-data (The dataset from the University Repository)  
+**BERT_BASE_DIR** (The files from the Google's BERT Submodule)  
+**BERT_DATA_DIR** (The files from the BERT-Base Uncased Model)  
+**data** (The dataset from the University Repository)  
 |--lang_id_train.csv  
 |--lang_id_eval.csv  
 |--lang_id_test.csv  
-bert_input_data (Formatted files for vector representation)  
+**bert_input_data** (Formatted files for vector representation)  
 |--train.txt  
 |--eval.txt  
 |--test.txt  
-bert_output_data (Obtained feature vector representation)  
+**bert_output_data** (Obtained feature vector representation)  
 |--train.jsonlines  
 |--eval.jsonlines  
 |--test.jsonlines  
+```
 Format Data For Input.sh  
 run_bert_fv.sh  
 Prediction Models.ipynb  
+```
