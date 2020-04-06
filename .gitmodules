@@ -1,0 +1,3 @@
+[submodule "bert"]
+	path = BERT_BASE_DIR
+	url = https://github.com/google-research/bert.git
