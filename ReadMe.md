@@ -1,7 +1,7 @@
 # Introduction
 Create a text classification model that can predict the native language of an author who writes in English. With using the Google's BERT, the vector representations of the authors can be obtained which is fed to Neural Networks and other Prediction Models.   
   
-This task was created for the CS585 - Natural Language Processing Course at Illinois Institute of Technology, Chicago.
+This task was created for the CS585 - Natural Language Processing Fall 2019 Course at Illinois Institute of Technology, Chicago.
   
 # Workflow
 1. Clone the [BERT repository](https://github.com/google-research/bert) and add it as a git submodule referred as `BERT_BASE_DIR`.  
